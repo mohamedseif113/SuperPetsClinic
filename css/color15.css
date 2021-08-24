@@ -3915,12 +3915,13 @@ header {
 .theme-modal {
   padding-right: 0 !important; }
   .theme-modal .modal-dialog .modal-content .modal-body {
-    background-image: url(../img/patter-2.png);
+background-image: url(../img/pattern-2.png);
+background-size : cover; 
+background-repeat: no-repeat; 
+background-position : bottom; 
+
     /* background-size: 36.77px 36.77px; */
     background-color: #f8f9fa;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: auto;
     }
     .theme-modal .modal-dialog .modal-content .modal-body .modal-bg {
       background-color: #ffffff;
@@ -6268,7 +6269,12 @@ footer {
 
 .footer-theme .footer-logo {
   margin-bottom: 18px; }
+.footer-theme .footer-logo img {
+width : auto;
+height : 80px;
+background-color: #fff;
 
+}
 .footer-theme .sub-title h4 {
   color: #fff;
   margin-bottom: 25px;
@@ -20580,3 +20586,5 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
   .pixelstrap ul li, .pixelstrap.sm-rtl ul li, .pixelstrap.sm-vertical li {
     float: none; }
   .pixe
+
+    
