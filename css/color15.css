@@ -3915,9 +3915,12 @@ header {
 .theme-modal {
   padding-right: 0 !important; }
   .theme-modal .modal-dialog .modal-content .modal-body {
-    background-image: linear-gradient(135deg, #fe8d34 5.77%, #ffffff 5.77%, #ffffff 25%, #01effc 25%, #01effc 30.77%, #ffffff 30.77%, #ffffff 50%, #fe8d34 50%, #fe8d34 55.77%, #ffffff 55.77%, #ffffff 75%, #01effc 75%, #01effc 80.77%, #ffffff 80.77%, #ffffff 100%);
+    background-image: url(../img/patter-2.png);
     /* background-size: 36.77px 36.77px; */
     background-color: #f8f9fa;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
     }
     .theme-modal .modal-dialog .modal-content .modal-body .modal-bg {
       background-color: #ffffff;
