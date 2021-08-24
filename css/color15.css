@@ -3915,7 +3915,7 @@ header {
 .theme-modal {
   padding-right: 0 !important; }
   .theme-modal .modal-dialog .modal-content .modal-body {
-background-image: url(../img/pattern-2.png);
+background-image: url(../images/pattern-2.png);
 background-size : cover; 
 background-repeat: no-repeat; 
 background-position : bottom; 
